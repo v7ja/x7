@@ -145,8 +145,8 @@ async def main(app, msg):
                 await asyncio.sleep(float(isl))
                 wa = open('user.txt','r').read()
                 await tele.set_username(wa)
-                await tele.update_profile(first_name="aBooD YaBh #1")
-                await tele.update_profile(bio="aBooD YaBh is Number One \n The Team @YaBhTeam 🐊 ,")
+                await tele.update_profile(first_name="ᥲხ᥆᥆ძ ᥡᥲხɦ #1")
+                await tele.update_profile(bio="α𝖻᥆᥆ძ - ᥒᥙ𝗆𝖻𝖾𝗋 1 , 𝗍h𝖾 𝗌𝗍𝗋᥆ᥒ𝗀 𝗍𝖾α𝗆 Ꭵ𝗌 , @YaBhTeam🐊 ,")
                 me = await tele.get_me()
                 pho = me.phone_number
                 phone = pho[:-2] + "*****"
